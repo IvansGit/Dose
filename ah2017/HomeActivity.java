@@ -37,23 +37,33 @@ public class HomeActivity extends Fragment implements
         view = inflater.inflate(R.layout.activity_home, container, false);
         initViews();
         setListeners();
+
         return view;
     }
 
     private void setListeners() {
-
+        scan.setOnClickListener(this);
+        meds.setOnClickListener(this);
+        schedule.setOnClickListener(this);
     }
 
     private void initViews() {
         scan = (Button)view.findViewById(R.id.scan_button);
+        meds = (Button)view.findViewById(R.id.med_button);
+        schedule = (Button)view.findViewById(R.id.sched_button);
     }
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.scan_button:
                 Intent intent = new Intent(getActivity(), ScanActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.med_button:
+                break;
+            case R.id.sched_button:
+                break;
         }
     }
 
