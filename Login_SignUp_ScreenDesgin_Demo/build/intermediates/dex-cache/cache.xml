@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\MLH-Admin\Desktop\Login_SignUp_ScreenDesgin_Demo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\MLH-Admin\Desktop\Login_SignUp_ScreenDesgin_Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f8d4a7427863e3eac2e85b19f3ae16f1a77d7676\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MLH-Admin\Desktop\Login_SignUp_ScreenDesgin_Demo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="41be3ffd4f83ea942f69f4b822fa26a452390896">
+        <dex dex="C:\Users\MLH-Admin\Desktop\Login_SignUp_ScreenDesgin_Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9d966d745440805e5d135e2bc61b71892001063e\classes.dex" />
+    </item>
+
+</items>

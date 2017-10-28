@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_enter.xml",
+        "source": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\left_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cycle.xml",
+        "source": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\cycle.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_enter.xml",
+        "source": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\left_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_enter.xml",
+        "source": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\right_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cycle.xml",
+        "source": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\cycle.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\MLH-Admin\\.android\\build-cache\\3b54c4fa40753013db50dcb3966b8c9c3b9134ae\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sonu\\Documents\\AndroidWorkspace\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Sonu\\.android\\build-cache\\83ce70d2e27e91f606eec9406c0566e88fad1a48\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_enter.xml",
+        "source": "C:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\src\\main\\res\\anim\\right_enter.xml"
+    }
+]

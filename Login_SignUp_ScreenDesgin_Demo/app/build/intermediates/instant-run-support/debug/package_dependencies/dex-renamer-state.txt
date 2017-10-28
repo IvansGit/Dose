@@ -1,0 +1,13 @@
+#Sat Oct 28 02:24:11 CDT 2017
+renamed.3=classes2.dex
+renamed.2=classes4.dex
+renamed.1=classes.dex
+renamed.0=classes3.dex
+base.3=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_435675eab489a771e337649a6245de62b8c676dc
+base.2=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_ad72d20cea1ef3ba76de2544b67cc1e5f962c5ce
+base.1=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_293487c75fd77994c46b290cbae12267703aae11
+base.0=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_36df83b7f9e456aec40de8554585c5c941c6e409
+file.3=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_435675eab489a771e337649a6245de62b8c676dc\\classes.dex
+file.2=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_ad72d20cea1ef3ba76de2544b67cc1e5f962c5ce\\classes.dex
+file.1=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_293487c75fd77994c46b290cbae12267703aae11\\classes.dex
+file.0=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_36df83b7f9e456aec40de8554585c5c941c6e409\\classes.dex

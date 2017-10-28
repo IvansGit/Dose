@@ -1,0 +1,7 @@
+#Sat Oct 28 02:24:11 CDT 2017
+base.0=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9d966d745440805e5d135e2bc61b71892001063e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f8d4a7427863e3eac2e85b19f3ae16f1a77d7676\\classes.dex
+base.1=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f8d4a7427863e3eac2e85b19f3ae16f1a77d7676
+file.0=C\:\\Users\\MLH-Admin\\Desktop\\Login_SignUp_ScreenDesgin_Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9d966d745440805e5d135e2bc61b71892001063e\\classes.dex
