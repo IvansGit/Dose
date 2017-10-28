@@ -1,0 +1,1 @@
+credentials = {'API_KEY' : 'ec5f82842a00877930c6a6ff829ec48f'}
