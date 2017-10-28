@@ -2,36 +2,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:padding="20dp" >
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animation_view"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:lottie_fileName="logo.json"
-        app:lottie_loop="true"
-        app:lottie_autoPlay="true" />
+        tools:context="damian.ah2017.MainActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/login_layout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:weightSum="1">
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/login"
-            android:textColor="@color/white_greyish"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/animation"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_weight="2.10" />
 
         <EditText
             android:id="@+id/login_emailid"
-             android:singleLine="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -42,8 +41,9 @@
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:textColor="@color/button_selectorcolor"
+            android:textColorHint="@color/button_selectorcolor"
             android:textSize="16sp" />
 
         <View
@@ -53,7 +53,6 @@
 
         <EditText
             android:id="@+id/login_password"
-             android:singleLine="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
@@ -63,8 +62,9 @@
             android:hint="@string/passowrd"
             android:inputType="textPassword"
             android:padding="10dp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:textColor="@color/button_selectorcolor"
+            android:textColorHint="@color/button_selectorcolor"
             android:textSize="16sp" />
 
         <LinearLayout
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/show_pwd"
-                android:textColor="@color/white"
+                android:textColor="@color/button_selectorcolor"
                 android:textSize="14sp" />
 
             <TextView
@@ -91,7 +91,7 @@
                 android:gravity="end"
                 android:padding="5dp"
                 android:text="@string/forgot"
-                android:textColor="@color/white"
+                android:textColor="@color/button_selectorcolor"
                 android:textSize="14sp" />
         </LinearLayout>
 
@@ -119,7 +119,7 @@
         android:gravity="center"
         android:padding="5dp"
         android:text="@string/newUser"
-        android:textColor="@color/white"
+        android:textColor="@color/white_greyish"
         android:textSize="15sp" />
 
 </RelativeLayout>
