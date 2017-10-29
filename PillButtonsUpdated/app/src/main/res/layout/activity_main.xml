@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mlh_admin.pillbuttons.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+
+        android:text="Take Dose"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="Add to Medication"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        tools:layout_editor_absoluteY="424dp"
+        tools:layout_editor_absoluteX="194dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="120dp"
+        android:layout_height="171dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/redpill1"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <RelativeLayout
+        android:layout_width="272dp"
+        android:layout_height="393dp"
+        tools:context="com.android_examples.com.largemediumsmalltext.MainActivity"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Acetaminophen (Tylenol)"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="17dp"
+            android:text="Analgesic; it can treat minor aches and pains, and reduces fever."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="31dp"
+            android:text="How to Use: Do not use more than directed by your doctor. Do not take this medicine for more than 10 days in a row, unless directed by your doctor."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="26dp"
+            android:text="Side Effects: Alleric reaction, bloody or black stools, dark urine, fever or sore throat that lasts longer than 3 days"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="12dp"
+            android:text="Warnings: Inform your doctor if you are pregnant, or if you have kidney or liver disease, do not use more than 4 grams of this drug in one day, call your doctor if your symptoms do not improve"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
