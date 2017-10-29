@@ -27,4 +27,5 @@
     <string name="submit">SUBMIT</string>
     <string name="back">BACK</string>
     <string name="take_picture">Take picture</string>
+    <string name="no_meds">No medications to show.</string>
 </resources>

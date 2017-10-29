@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@color/wallet_bright_foreground_holo_dark"
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginRight="6dip"
+        android:paddingRight="300dp"
+        android:src="@drawable/thumb" />
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/takePillButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_weight="0.02"
+        android:background="@android:drawable/presence_busy"
+        android:onClick="toptext" />
+
+</LinearLayout>
