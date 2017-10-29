@@ -11,6 +11,10 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.util.Log;
+import android.util.SparseArray;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -29,13 +33,18 @@ import java.net.URI;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import com.google.android.gms.vision.Frame;
+import com.google.android.gms.vision.barcode.Barcode;
+import com.google.android.gms.vision.barcode.BarcodeDetector;
+
 public class ScanActivity extends AppCompatActivity {
     public static final int MY_PERMISSIONS_REQUEST_CAMERA = 100;
     public static final String ALLOW_KEY = "ALLOWED";
     public static final String CAMERA_PREF = "camera_pref";
     public static final int REQUEST_IMAGE_CAPTURE = 1;
 
-    private String mCurrentPhotoPath;
+    private String mCurrentPhotoPath = null;
+    public String outBarcode = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,7 +71,15 @@ public class ScanActivity extends AppCompatActivity {
                 }
             }
         } else {
-            openCamera();
+            outBarcode = openCamera();
+            if(outBarcode != null) {
+                try {
+                    BarcodeQuery newQuery = new BarcodeQuery(outBarcode);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    // Inform user of failed barcode trace
+                }
+            }
         }
 
     }
@@ -185,7 +202,7 @@ public class ScanActivity extends AppCompatActivity {
         context.startActivity(i);
     }
 
-    private void openCamera() {
+    private String openCamera() {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
         if(intent.resolveActivity(getPackageManager()) != null){
@@ -200,7 +217,25 @@ public class ScanActivity extends AppCompatActivity {
             if(photoFile != null){
                 startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
             }
+
+            if(mCurrentPhotoPath != null) {
+                BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+                Bitmap bitmap = BitmapFactory.decodeFile(mCurrentPhotoPath, bmOptions);
+
+                BarcodeDetector detector =
+                        new BarcodeDetector.Builder(getApplicationContext())
+                                .setBarcodeFormats(Barcode.DATA_MATRIX | Barcode.QR_CODE)
+                                .build();
+                if(!detector.isOperational()){
+                    return null;
+                }
+                Frame frame = new Frame.Builder().setBitmap(bitmap).build();
+                SparseArray<Barcode> barcodes = detector.detect(frame);
+                return barcodes.valueAt(0).rawValue;
+            }
+            else return null;
         }
+        else return null;
     }
 
     private File createImageFile() throws IOException {
@@ -215,7 +250,5 @@ public class ScanActivity extends AppCompatActivity {
         mCurrentPhotoPath = image.getAbsolutePath();
         return image;
     }
-
-
 
 }
