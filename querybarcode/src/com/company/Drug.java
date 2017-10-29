@@ -24,7 +24,13 @@ public class Drug {
         this.dosage=dosage;
     }
 
-    public void TakeDosage(){count-=dosage;}
+    // returns false if short on pills
+    public boolean TakeDosage(){
+        if(count > 0){
+            count-=dosage;
+        }
+        return count > 3*dosage;
+    }
     public void Refill(){count=full_value;}
     public void Refill(Integer value){count=value;}
     public void SetDosage(Integer value){dosage=value;}
