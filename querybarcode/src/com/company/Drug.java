@@ -28,7 +28,32 @@ public class Drug {
     public void Refill(){count=full_value;}
     public void Refill(Integer value){count=value;}
     public void SetDosage(Integer value){dosage=value;}
-    public void SetNDC(String ndc){this.ndc=ndc};
+    public void SetNDC(String ndc){this.ndc=ndc;};
+
+    public String getName() {
+        return name;
+    }
+
+    public String getBarcode() {
+        return barcode;
+    }
+
+    public Integer getCount() {
+        return count;
+    }
+
+    public Integer getFull_value() {
+        return full_value;
+    }
+
+    public Integer getDosage() {
+        return dosage;
+    }
+
+    public String getNdc() {
+        return ndc;
+    }
+
     @Override
     public String toString() {
         return "Drug{" +
