@@ -9,6 +9,7 @@ public class Drug {
     private Integer count;
     private final Integer full_value;
     private Integer dosage;
+    private String ndc;
 
     public Drug(String name, Integer count, String barcode){
         this.name = name;
@@ -27,7 +28,7 @@ public class Drug {
     public void Refill(){count=full_value;}
     public void Refill(Integer value){count=value;}
     public void SetDosage(Integer value){dosage=value;}
-
+    public void SetNDC(String ndc){this.ndc=ndc};
     @Override
     public String toString() {
         return "Drug{" +

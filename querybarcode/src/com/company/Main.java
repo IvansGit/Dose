@@ -9,7 +9,7 @@ public class Main {
 	// write your code here
         Drug d;
         try {
-            d = new BarcodeQuery("  64541310790").GetDrug();
+            d = new BarcodeQuery("064541310790").GetDrug();
             System.out.println(d);
         } catch (IOException e) {
             e.printStackTrace();
